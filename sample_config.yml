@@ -1,0 +1,10 @@
+hassUpdateInterval: 30s
+hassAPIToken: {pull api token from HASS user settings}
+hassURL: { internal or public HASS url }
+hassEntity: { entity name }
+iBeacons:
+  - name: mySampleIBeacon
+    UUID: 8e89aa5f-d57e-4b40-a060-ec45e70f143f
+    major: 123
+    minor: 456
+    minRSSI: 80
